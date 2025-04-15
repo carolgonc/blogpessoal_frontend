@@ -27,7 +27,7 @@ function Perfil() {
 
 				<img
 					className="rounded-full w-56 mx-auto mt-[-8rem] border-8 border-white relative z-10"
-					src={usuario.foto}
+					src={usuario.foto || 'https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg?semt=ais_hybrid&w=740'}
 					alt={`Foto de perfil de ${usuario.nome}`}
 				/>
 

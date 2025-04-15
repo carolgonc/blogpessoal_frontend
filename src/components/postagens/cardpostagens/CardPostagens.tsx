@@ -13,7 +13,7 @@ function CardPostagem({ postagem }: CardPostagensProps) {
             <div>
                 <div className="flex w-full bg-indigo-400 py-2 px-4 items-center gap-4">
                     <img
-                        src={postagem.usuario?.foto}
+                        src={postagem.usuario?.foto || 'https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg?semt=ais_hybrid&w=740'}
                         className='h-12 rounded-full'
                         alt={postagem.usuario?.nome} />
                     <h3 className='text-lg font-bold text-center uppercase'>
